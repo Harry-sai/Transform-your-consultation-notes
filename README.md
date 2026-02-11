@@ -1,8 +1,9 @@
-### Try it out on 
+## Try it out on 
 
-[Live Demo](https://2bi8nk6pb8.ap-south-1.awsapprunner.com/)
+https://2bi8nk6pb8.ap-south-1.awsapprunner.com/
 
-Login with any main Id and do payment using Test card to check it out 
+Login with any main Id and do payment using Test card to check it out
+
 ---
 
 # Transform Your Consultation Notes
