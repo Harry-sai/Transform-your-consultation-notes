@@ -1,6 +1,6 @@
 ### Try it out on 
 
-`https://2bi8nk6pb8.ap-south-1.awsapprunner.com/`
+[Live Demo](https://2bi8nk6pb8.ap-south-1.awsapprunner.com/)
 
 Login with any main Id and do payment using Test card to check it out 
 ---
