@@ -9,14 +9,22 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.37.2",
+    "@microsoft/fetch-event-source": "^2.0.1",
+    "@tailwindcss/typography": "^0.5.19",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-datepicker": "^9.1.0",
+    "react-dom": "19.2.3",
+    "react-markdown": "^10.1.0",
+    "remark-breaks": "^4.0.0",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
+    "@types/react-datepicker": "^6.2.0",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
