@@ -65,6 +65,4 @@ This project demonstrates:
 * Containerized production workflows
 * Real-world monitoring and observability setup
 
----
 
-If you'd like, I can also tailor it for a more product-focused tone or a more engineering-heavy version.
