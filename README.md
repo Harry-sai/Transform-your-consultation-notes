@@ -1,40 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+### Try it out on 
 
-## Getting Started
+`https://2bi8nk6pb8.ap-south-1.awsapprunner.com/`
 
-First, run the development server:
+Login with any main Id and do payment using Test card to check it out 
+---
+
+# Transform Your Consultation Notes
+
+A web application that converts raw medical consultation notes into structured summaries and ready-to-send draft emails.
+The goal is to streamline post-consultation documentation and improve clarity in patient communication.
+
+---
+
+## 🚀 Features
+
+* Convert unstructured consultation text into structured summaries
+* Automatically generate draft follow-up emails
+* Clean and responsive UI built with Next.js + TypeScript
+* Production deployment using Docker
+* Scalable cloud hosting with AWS App Runner
+* Monitoring and logging via CloudWatch
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend & Backend:** Next.js (React + TypeScript)
+* **Containerization:** Docker
+* **Cloud Deployment:** AWS ECR + App Runner
+* **Monitoring:** AWS CloudWatch
+
+---
+
+## 📦 Deployment Architecture
+
+1. Application containerized using Docker
+2. Docker image pushed to AWS Elastic Container Registry (ECR)
+3. Service deployed via AWS App Runner
+4. Logs and performance metrics monitored through CloudWatch
+
+---
+
+## 🧑‍💻 Local Development
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app will run locally on `http://localhost:3000`.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 📌 Purpose
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+This project demonstrates:
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Full-stack application development
+* Cloud deployment and DevOps practices
+* Containerized production workflows
+* Real-world monitoring and observability setup
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+If you'd like, I can also tailor it for a more product-focused tone or a more engineering-heavy version.
